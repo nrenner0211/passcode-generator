@@ -6,21 +6,30 @@
 
 html,
 body,
-.wrapper {
+.container {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: 'Rubik', sans-serif;
+  background-color: #B8CDF8;
 }
 
-.wrapper {
+.container {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.container h1 {
+  color: #9D8DF1;
+  font-size: 36px;
+}
+
+.container h1:hover {
+  color: aliceblue;
 }
 
 header {
@@ -56,6 +65,16 @@ header {
 
 .card-footer {
   text-align: center;
+  width: 100%;
+}
+
+.card-footer form {
+  line-height: 3.5;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
 }
 
 .card-footer::before {
@@ -74,7 +93,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #9D8DF1;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -83,12 +102,17 @@ header {
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  padding: 24px 34px;
   text-align: center;
   cursor: pointer;
 }
 
-button[disabled] {
+.btn:hover {
+  background-color: #B8CDF8;
+  color: aliceblue;
+}
+
+button {
   cursor: default;
   background: #c0c7cf;
 }
