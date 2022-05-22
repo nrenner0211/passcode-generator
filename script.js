@@ -48,14 +48,14 @@ function generatePassword() {
 
   //if user enters a number too small or large, error message
   else if (userInput1 < 8 || userInput1 > 128) {
-    window.alert("Try again!")
-    password = "You broke it! Try again";
+    window.alert("Please enter a number in the correct range!")
+    password = "Try again!";
       return password;
   }
 
   // if user enters a character other than a number, error message
   else {
-    window.alert("Please select a number between 8-128!")
+    window.alert("Please enter a number between 8-128!")
     password = "*buzzer sound* Try again!";
       return password;
   }

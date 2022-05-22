@@ -6,7 +6,7 @@ This is a little project for the coding bootcamp that I'm attending, intended to
 
 ## Languages Used
 
-HTML, CSS, and Javascript were used in the making of this webpage, although the HTML and CSS were provided. Source code below!
+HTML, CSS, and Javascript were used in the making of this webpage, although the HTML and CSS were provided. I made small changes to the HTML and CSS to make it more visually stimulating and interactive. Source code below!
 
 ## Source Code
 
@@ -18,4 +18,4 @@ I have minimal experience with Javascript, so I learned a lot. I tried a few dif
 
 ## Thanks
 
-Have a nice day! Thanks for reading.
+Thanks for reading. Have a nice day!

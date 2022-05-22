@@ -7,13 +7,14 @@
 html,
 body,
 .wrapper {
+  background-color: #29335C;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: #f9fbfd;
 }
 
@@ -27,7 +28,8 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  font-size: 26px;
+  color: #ffffff;
 }
 
 .card {
@@ -40,6 +42,10 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+}
+
+.card-header h2 {
+  text-align: center;
 }
 
 .card-header::after {
@@ -74,7 +80,7 @@ header {
 
 .btn {
   border: none;
-  background-color: #648DE5;
+  background-color: #95a4e6;
   position: 0;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
@@ -90,7 +96,7 @@ header {
 }
 
 .btn:hover {
-  box-shadow: inset 0px 0px 5px #304C89;
+  box-shadow: inset 0px 0px 8px #140D4F;
 }
 
 button[disabled] {
