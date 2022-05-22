@@ -11,6 +11,7 @@ function generatePassword() {
   var charSym = "";
   var password = "";
 
+  // if requirements are met, run character selection prompts and function
   if (userInput1 >= 8 && userInput1 <= 128) {
     uppercase = confirm("Would you like to include some uppercase letters?");
     lowercase = confirm("How about lowercase?");
@@ -22,7 +23,7 @@ function generatePassword() {
       password = "Try again!";
       return password;
     }
-    
+
     if (lowercase) {
       charSym += passwordContent.lowercase;
     }
@@ -44,12 +45,15 @@ function generatePassword() {
     }
     return password;
   }
+
+  //if user enters a number too small or large, error message
   else if (userInput1 < 8 || userInput1 > 128) {
     window.alert("Try again!")
     password = "You broke it! Try again";
       return password;
   }
 
+  // if user enters a character other than a number, error message
   else {
     window.alert("Please select a number between 8-128!")
     password = "*buzzer sound* Try again!";
